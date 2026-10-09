@@ -427,6 +427,9 @@ button {
   display: flex;
   gap: 10px;
 }
+
+
+
 .hero__dot {
   width: 6px;
   height: 6px;
@@ -435,6 +438,9 @@ button {
   background: rgba(150,150,150,.8);
   transition: all .2s ease;
 }
+
+
+ 
 .hero__dot.is-active { background: #0a7cff; transform: scale(1.4); }
 
 .hero__progress { position: absolute; left: 0; bottom: 0; width: 100%; height: 3px; z-index: 5; }
